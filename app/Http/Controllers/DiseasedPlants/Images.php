@@ -12,7 +12,7 @@ class Images extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            'image' => 'required|image|max:2000',
+            'image' => 'required|image|max:15000',
         ]);
 
         $path = $request->file('image')->store('diseased-plants');
