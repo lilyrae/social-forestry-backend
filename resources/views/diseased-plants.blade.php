@@ -22,10 +22,6 @@
                 margin: 0;
             }
 
-            .full-height {
-                height: 100vh;
-            }
-
             .flex-center {
                 align-items: center;
                 display: flex;
@@ -51,6 +47,7 @@
             }
 
             .title {
+                margin-top: 50px;
                 font-size: 84px;
                 width: 100%;
             }
@@ -90,7 +87,7 @@
         </style>
     </head>
     <body>
-        <div class="flex-center full-height">
+        <div class="flex-center">
             <div class="content">
                 <div class="title m-b-md">
                     Diseased Plants

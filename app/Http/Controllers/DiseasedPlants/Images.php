@@ -15,7 +15,7 @@ class Images extends Controller
             'image' => 'required|image|max:15000',
         ]);
 
-        $path = $request->file('image')->store('diseased-plants');
+        $path = $request->file('image')->store('public/diseased-plants');
 
         return response()->json([
             'success' => true,
