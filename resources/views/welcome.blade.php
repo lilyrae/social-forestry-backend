@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Social Forestry</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -70,7 +70,6 @@
                 <div class="title m-b-md">
                     Social Forestry
                 </div>
-
                 <div class="links">
                     <a href="https://ssnmtrust.org/index.php">About Us</a>
                     <a href="https://ssnmtrust.org/recent-projects.php">Projects</a>

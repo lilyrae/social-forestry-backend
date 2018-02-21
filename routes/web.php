@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/plant/diseased', [
+    'as'   => 'diseased-plants.gallery',
+    'uses' => 'Pages@diseasedPlants'
+]);
